@@ -1,5 +1,7 @@
 # Responsive layout
 
+A demo so I can play with responsive layouts and responsive images.
+
 ## Development requirements
 * Install [Node](http://nodejs.org/) and npm (comes with node).
 * Install Gulp globally with npm.
