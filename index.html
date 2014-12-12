@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Responsive Layout</title>
+    <meta name="description" content="A responsive layout page with responsive images.">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- Allow max width on content. -->
+    <div class="content group">
+      <img src="images/main-1551-870-half.png" srcset="images/main-1551-870-half.png 1x, images/main-1551-870.png 2x" alt="Corporate main image."></img>
+      <!-- Prevent pixel rounding errors
+      displacing the follow/about/explore
+      action calls. -->
+      <div class="group">
+        <!-- Group horizontally aligned
+        central content. -->
+        <div class="collection group">
+          <!-- Use srcset to download higher
+          resolution images for retina screens -->
+          <img src="images/cityscape-517-277-half.png" srcset="images/cityscape-517-277-half.png 1x, images/cityscape-517-277.png 2x" alt="Cityscape."></img>
+          <img src="images/bridge-517-554-half.png" srcset="images/bridge-517-554-half.png 1x, images/bridge-517-554.png 2x" alt="A bridge."></img>
+        </div>
+        <div class="collection group">
+          <img src="images/sea-517-277-half.png" srcset="images/sea-517-277-half.png 1x, images/sea-517-277.png 2x" alt="The sea."></img>
+          <img src="images/junction-517-277-half.png" srcset="images/junction-517-277-half.png 1x, images/junction-517-277.png 2x" alt="A busy city road junction."></img>
+          <img src="images/typewriter-517-277-half.png" srcset="images/typewriter-517-277-half.png 1x, images/typewriter-517-277.png 2x" alt="A typewriter."></img>
+        </div>
+        <div class="collection group">
+          <img src="images/blurb-517-554-half.png" srcset="images/blurb-517-554-half.png 1x, images/blurb-517-554.png 2x" alt="Corporate blurb."></img>
+          <img src="images/bear-517-277-half.png" srcset="images/bear-517-277-half.png 1x, images/bear-517-277.png 2x" alt="A bear."></img>
+        </div>
+      </div>
+      <img class="small" src="images/follow-517-178-half.png" srcset="images/follow-517-178-half.png 1x, images/follow-517-178.png 2x" alt="An invitation to follow."></img>
+      <img class="small" src="images/about-517-178-half.png" srcset="images/about-517-178-half.png 1x, images/about-517-178.png 2x" alt="An invitation to find out more."></img>
+      <img class="small" src="images/explore-517-178-half.png" srcset="images/explore-517-178-half.png 1x, images/explore-517-178.png 2x" alt="An invitation to explore."></img>
+      <img src="images/swimming-1551-339-half.png" srcset="images/swimming-1551-339-half.png 1x, images/swimming-1551-339.png 2x" alt="A person swimming."></img>
+    </div>
+  </body>
+</html>

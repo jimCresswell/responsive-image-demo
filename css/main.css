@@ -1,0 +1,62 @@
+html {
+
+  /**
+   * Colour chosen to minimise
+   * impact of pixel-rounding
+   * error under the central
+   * image.
+   */
+  background-color: #E1E1E1;
+}
+
+
+/* Semantic clearfix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/**
+ * Image, default full width
+ * mobile first.
+ */
+img {
+    width: 100%;
+}
+
+
+/* Main container */
+.content {
+    width: 100%;
+    margin: 0 auto;
+
+
+    /**
+     * Approx iPad landscape and a
+     * factor of 3 so limits
+     * horizontal pixel rounding
+     * errors.
+     */
+    max-width: 1026px;
+
+    /**
+     * Hide gaps between images
+     * caused by HTML formatting.
+     */
+    font-size: 0;
+}
+
+
+/**
+ * Approx iPhone potrait
+ * swith to target layout.
+ */
+@media (min-width: 480px) {
+    .small,
+    .collection {
+        width: 33.333333333333333%;
+        float: left;
+    }
+}
