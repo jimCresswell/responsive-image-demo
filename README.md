@@ -17,3 +17,5 @@ A demo so I can play with responsive layouts and responsive images.
 ## Notes
 * See comments in HTML and CSS.
 * Images optimised with https://imageoptim.com/ .
+* Once iOS Safari supports the w attribute in srcset (http://caniuse.com/#feat=srcset) more logic can be added to load larger resolution images for wide screens. This could be done now now with backgroud images but then mobile devices would always
+have to download about 2MB of images.
